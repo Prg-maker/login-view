@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    animation-name:aparecer;
+    animation-duration: 1s ;
+    
+    
+    
+    
+    
+}
+
+
+
+/*container*/
+.container{
+    position: absolute;
+    left:65%;
+    top: 50px;
+    font: 1em sans-serif;
+    line-height: 40px;
+
+    animation-name: rigth;
+    
+    
+    
+}
+/*container final*/
+
+/*main*/
+
+
+main p{
+    font-size: 15px ;
+    color: #2D3748;
+}
+main h2{
+    font-weight: bold;
+    color: #1A202C;
+    margin: 0 0 2rem 0;
+}
+/*main final*/
+
+
+/*login*/
+
+.login{
+    margin: 0 0 3rem 0;
+    
+}
+.login label{
+   color: #4A5568; 
+   font-size: 1rem;
+ 
+}
+
+
+.login input{
+   display:block;
+   
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    
+    padding: 1rem 8rem 1rem 0;
+
+    
+    
+}
+
+
+/*login final*/
+
+/*btn*/
+
+button {
+    text-align: center;
+   
+    margin: 0 0 2rem 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    border-radius:5px ;
+    font-weight: bold;
+    
+}
+
+.login-now{
+    background-color:  #04C45C;
+
+    
+    
+   
+
+}
+.login-now:hover{
+    
+    background-color:  #0ee271;
+    transition: 1s;
+    
+}
+
+
+.sing{
+    background: #2D3748;
+}
+.sing:hover{
+    background: #414958;
+    transition: 1s;
+}
+.fab{
+    font-weight: normal;
+    font-size: 20px;
+    padding-right: 0.2rem;
+}
+
+
+
+/*btn final*/
+
+
+/*footer*/
+footer{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+footer p{
+    color: #616161;
+}
+footer a{
+    text-decoration: none;
+    color: #2B6CB0;
+}
+
+/*footer final*/
+
+img{
+    
+    padding: 0;
+    margin: 0;
+    position: fixed ;
+    left: 0;
+    border: none;
+    animation-name: left;
+}
+
+
+
+/*animation*/
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    tp{
+        opacity: 1;
+    }
+}
+
+
+@keyframes left{
+    from{
+        transform:translateX(-35%) ;
+    }
+    to{
+        transform:translateX(0%) ;
+    }
+}
+
+@keyframes rigth{
+    from{
+        transform:translateX(35%) ;
+    }
+    to{
+        transform:translateX(0%) ;
+    }
+}
+
+
